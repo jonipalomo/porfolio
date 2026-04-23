@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JPWEB Soluciones Digitales</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,300&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,7 +21,7 @@
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Plus Jakarta Sans', sans-serif;
       background: var(--paper);
       color: var(--ink);
       overflow-x: hidden;
@@ -37,8 +37,8 @@
       border-bottom: 1px solid var(--border);
     }
     .logo {
-      font-family: 'Syne', sans-serif;
-      font-weight: 800; font-size: 1.15rem; letter-spacing: -0.02em;
+      font-family: 'Fraunces', serif;
+      font-weight: 900; font-size: 1.2rem; letter-spacing: -0.02em;
       color: var(--ink); text-decoration: none;
     }
     .logo span { color: var(--accent); }
@@ -96,7 +96,7 @@
     }
 
     h1 {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Fraunces', serif;
       font-size: clamp(2.8rem, 5.5vw, 4.5rem);
       font-weight: 800; line-height: 1.02;
       letter-spacing: -0.03em; margin-bottom: 1.4rem;
@@ -140,7 +140,7 @@
     .stat-card:hover { transform: translateY(-4px); }
     .stat-card:first-child { grid-column: 1 / -1; }
     .stat-num {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Fraunces', serif;
       font-size: 2.4rem; font-weight: 800;
       letter-spacing: -0.04em; color: var(--ink);
     }
@@ -169,7 +169,7 @@
       color: var(--accent); margin-bottom: .8rem;
     }
     h2 {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Fraunces', serif;
       font-size: clamp(2rem, 3.5vw, 3rem);
       font-weight: 800; letter-spacing: -0.03em;
       margin-bottom: 1rem; line-height: 1.08;
@@ -206,7 +206,7 @@
       font-size: 1.4rem; margin-bottom: 1.2rem;
     }
     .service-title {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Fraunces', serif;
       font-weight: 700; font-size: 1.05rem; margin-bottom: .6rem;
     }
     .service-desc { color: var(--muted); font-size: .88rem; line-height: 1.65; }
@@ -233,7 +233,7 @@
       color: rgba(245,243,238,0.08); letter-spacing: -0.04em;
       line-height: 1; margin-bottom: .6rem;
     }
-    .step-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: .5rem; }
+    .step-title { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1rem; margin-bottom: .5rem; }
     .step-desc { color: rgba(245,243,238,.5); font-size: .85rem; line-height: 1.6; }
 
     /* ── CONTACTO ── */
@@ -269,7 +269,7 @@
       flex-wrap: wrap; gap: 1rem;
     }
     .footer-logo {
-      font-family: 'Syne', sans-serif; font-weight: 800;
+      font-family: 'Fraunces', serif; font-weight: 900;
       font-size: 1rem; letter-spacing: -0.02em;
     }
     .footer-logo span { color: var(--accent); }
@@ -417,20 +417,25 @@
         Contame de qué se trata y encontramos juntos la solución más eficiente para tu operación.
       </p>
     </div>
-    <form class="contact-form reveal" onsubmit="handleSubmit(event)">
-      <input type="text" placeholder="Tu nombre" required />
-      <input type="email" placeholder="Tu email" required />
-      <input type="text" placeholder="Empresa / Rubro (opcional)" />
-      <textarea placeholder="¿Qué proceso querés automatizar o mejorar?"></textarea>
-      <button type="submit">Enviar mensaje →</button>
-    </form>
+    <div class="reveal" style="border-radius:20px; overflow:hidden; border:1px solid var(--border); box-shadow: 0 8px 32px rgba(10,10,15,0.07);">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfVTrAXhocPkNsBeY13d04ijPMV4_mIMFt3kixPblL6nmaHqw/viewform?embedded=true"
+        width="100%"
+        height="620"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        style="display:block; background:#fff;">
+        Cargando…
+      </iframe>
+    </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo"><span>JP</span>WEB Soluciones Digitales</div>
-  <p>© 2025 JPWEB · Mendoza, Argentina</p>
+  <p>© 2026 JPWEB · Mendoza, Argentina</p>
 </footer>
 
 <script>
