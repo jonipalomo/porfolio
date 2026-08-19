@@ -128,7 +128,7 @@
       <p class="horarios-title">Horarios de atención</p>
       <ul>
         <li>Martes <span>09:00 – 13:00 hs</span></li>
-        <li>Miércoles <span>09:00 – 13:00 hs</span></li>
+        <li>Miércoles <span>09:00 – 13:00 · 14:00 – 18:00 hs</span></li>
         <li>Viernes <span>09:00 – 13:00 hs</span></li>
       </ul>
     </div>
@@ -145,6 +145,11 @@
       document.getElementById('form-success').style.display = 'block';
     }, 500);
   }
+</script>
+
+<!-- Chatbase chatbot -->
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="zqZzM10qSyhCpL2Gugvv0";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
 </body>
 </html>
